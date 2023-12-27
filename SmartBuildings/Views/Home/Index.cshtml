@@ -1,0 +1,10 @@
+﻿@model List<Owner>
+
+<h1>Owners</h1>
+
+<ul>
+    @foreach (var owner in Model)
+    {
+        <li>@owner.FullName - @owner.DateOfBirth.ToShortDateString() - @owner.PhoneNumber</li>
+    }
+</ul>
