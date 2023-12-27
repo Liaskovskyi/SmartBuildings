@@ -13,10 +13,10 @@ import AdminDashboard from './AdminDashboard';
 import Resources from './Resources';
 
 const initialAuthenticated = localStorage.getItem('authenticated') ;
-
+const initialAuthenticatedParsed = initialAuthenticated ? JSON.parse(initialAuthenticated) : null;
 
 const App = () => {
-  const [authenticated, setAuthenticated] = useState(JSON.parse(initialAuthenticated).authenticated);
+  const [authenticated, setAuthenticated] = useState(initialAuthenticatedParsed?.authenticated || false);
   const apartmentId = localStorage.getItem('apartmentNumber');
   const [currentTime, setCurrentTime] = useState('');
   const [currentDate, setCurrentDate] = useState('');
