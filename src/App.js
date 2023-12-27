@@ -23,7 +23,7 @@ const App = () => {
   const [currentTab, setCurrentTab] = useState('Overview');
   const [selectedDeviceType, setSelectedDeviceType] = useState(null);
   const [selectedTab, setSelectedTab] = useState('Overview'); 
-  const [isAdmin, setIsAdmin] = useState(JSON.parse(initialAuthenticated).isAdmin); 
+  const [isAdmin, setIsAdmin] = useState(initialAuthenticatedParsed?.isAdmin || false);
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedResource, setSelectedResource] = useState(null);
 
