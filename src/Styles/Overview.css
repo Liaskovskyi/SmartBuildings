@@ -1,0 +1,100 @@
+
+.overview-container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2f3b52;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    height: 80%;
+    margin-right: 50px;
+    box-shadow: 0px 0px 5px 0px #161619;
+
+    .overview-items {
+      display: flex;
+      justify-content: space-around; 
+      width: 100%;
+      
+    }   
+    
+}
+.overview-item {
+  border: 1px solid #9ba4ad;
+border-radius: 8px;
+border-color: black;
+margin: 10px;
+text-align: center;
+width: 376px;
+box-shadow: 0px 0px 5px 0px #161619;
+background-color: #3e4e6c;
+transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.05);
+    }
+}
+.overview-item h2{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.green-text {
+  color: #36d936 !important;
+}
+
+.red-text {
+  color: red !important;
+}
+
+.overview-item security-box{
+  color: #ffffff;
+  font-size: 30px;
+  
+}
+.security-box img{
+  width: 383px; 
+height: auto;
+margin-bottom: 10px; 
+
+}
+
+.overview-item lights-box{
+  font-size: 50px;
+  
+}
+.lights-box img{
+  width: 374px;
+height: auto;
+margin-bottom: 10px; 
+}
+
+.overview-item temperature-box{
+  font-size: 50px;
+  
+}
+.temperature-box img{
+  width: 374px; 
+height: auto;
+margin-bottom: 10px; 
+}
+
+.see-analytics-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5f6278;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.see-analytics-button:hover {
+  background-color: #151b27;
+  transform: scale(1.1);
+
+}
+
+    

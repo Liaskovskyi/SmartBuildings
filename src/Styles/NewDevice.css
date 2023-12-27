@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  
+
+  label {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .input-list {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #3e4e6c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s;
+    &:hover {
+  background-color: #151b27;
+  transform: scale(1.1);
+} }
+
+.function-name{
+    color: white;
+    font-size: 35px;
+}
+  
+.message{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+}
+.success {
+    color: #5cd55c;
+  }
+  
+  .error {
+    color: red;
+  }
+
+.add-device{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}  
+
+.remove-device{
+    display: flex;
+    margin-bottom: 149px;
+    flex-direction: column;
+    align-items: center;
+}
+.input-list-remove {
+    
+    margin-top: 59px;
+  }
+
+  .add-remove-button{
+    position: absolute;
+    bottom: 87px;
+  }
+  

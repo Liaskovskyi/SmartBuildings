@@ -1,0 +1,29 @@
+src/styles/App.css
+.app-container {
+    display: flex;
+  }
+  
+  .menu-panel {
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .home-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content-panel {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  
