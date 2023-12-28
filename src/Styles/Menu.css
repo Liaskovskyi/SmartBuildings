@@ -85,3 +85,9 @@
       color: #ffffff;
       font-weight: bold;
     }
+
+    @media only screen and (max-width: 968px) {
+      .menu-panel {
+        width: 200px;
+      }
+    }

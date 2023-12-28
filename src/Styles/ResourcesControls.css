@@ -24,3 +24,9 @@
   .control-item img{
     width:160px;
 }
+
+@media only screen and (max-width: 968px) {
+    .control-items{
+        flex-direction: column;
+    }
+    }

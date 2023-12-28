@@ -77,3 +77,31 @@
             background-color: transparent;
         }
   }
+
+  @media only screen and (max-width: 968px) {
+    .device-container.analytics-container{
+      height: auto;
+      flex-direction: row;
+      width: 90%;
+      margin-right: 0px;
+    }
+
+    .analytics-items{
+      height: 1747px;
+      align-content: space-around;
+    }
+
+    .refresh-button{
+      height: 100px;
+      width: 100px;
+      margin: 0px;
+    }
+    
+    .analytics-item img{
+      width: 120px;
+    }
+
+    .analytics-item{
+      width: 255px;
+    }
+  }

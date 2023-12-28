@@ -97,4 +97,30 @@ margin-bottom: 10px;
 
 }
 
-    
+@media only screen and (max-width: 968px) {
+  .overview-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+    width:90%
+  }
+
+  .overview-items {
+    flex-direction: column; /* Change to column layout for mobile */
+    align-items: center; /* Center items on mobile */
+  }
+
+  .overview-item {
+    width: 80%;
+  }
+
+  .overview-item h2 {
+    font-size: 20px;
+  }
+
+  .security-box img,
+.lights-box img,
+.temperature-box img {
+  max-width: 128px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+}    

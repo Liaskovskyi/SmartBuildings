@@ -75,3 +75,8 @@ form {
     bottom: 87px;
   }
   
+  @media only screen and (max-width: 968px) {
+    .add-device{
+      margin-top: 65px;
+    }
+  }

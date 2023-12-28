@@ -102,3 +102,13 @@
     background-color: #3e4e6c;
     width: fit-content;
 }
+
+@media only screen and (max-width: 968px) {
+    .add-new-owner-form{
+       margin-top: 85px;
+    }
+    .delete-owner-form{
+       margin-top: 75px;
+    }
+    
+   }

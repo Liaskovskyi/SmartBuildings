@@ -154,3 +154,15 @@
     width: 90%;
     margin-top: 10px; 
   }
+
+  @media only screen and (max-width: 968px) {
+    .device-container{
+      height: auto;
+      flex-direction: column;
+      width: 90%;
+      margin-right: 0px;
+    }
+    .device-items{
+      justify-content: flex-end;
+    }
+  }
